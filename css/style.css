@@ -56,6 +56,34 @@ header div nav ul li a{
     
 }
 
+.textos-centrados{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.textos-left{
+    font-family: 'Nunito Sans', sans-serif;
+    margin-left: 20px;
+}
+
+br .lista-datosAP{
+    color: #8a287f;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin-left: 50px;    
+}
+
+ol .lista-numeros{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin-left: 60px;
+    margin-top: 15px;
+
+}
+
+
 h1{
     color: #163D34;
     text-align: center;
@@ -348,7 +376,7 @@ footer a{
     color: #ffffff;
    
     width: 500px;
-    height: 200px;
+    height: auto;
 
     align-items: center;
     flex-wrap: wrap;
@@ -415,8 +443,8 @@ footer a{
     font-size: 18px;
     padding: 4px;
     margin-top: 5px;
-    justify-content: space-between;
-    text-align: start;
+    justify-content: space-evenly
+    text-align: left;
     
    
 }
@@ -424,8 +452,9 @@ footer a{
 .caja-directorioimg{
     
     display: flex;
-    justify-content: space-between;
-    width: 15%;
+    justify-content: space-evenly;
+    width: 10%;
+    height: 2%;
     list-style-type: none;
     background-color: #ffffff
     
