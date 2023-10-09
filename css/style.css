@@ -1,0 +1,436 @@
+/* Como puedo poner la imagen del principio de otro tamaño */
+/* Cambiar fuente - Font-family - */
+
+/* Modificar valores del html */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,400;0,6..12,600;1,6..12,300&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&family=Roboto:wght@500&display=swap');
+
+html{
+    font-size: 30px;
+}
+
+header{
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #163D34
+    
+}
+
+header div nav ul{
+    list-style: none;
+    height: 100px;
+    text-decoration: none;
+    /* display flex*/
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+header div nav ul li{
+    margin: 10px;
+    text-decoration: none;
+    
+}
+
+header div nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    
+}
+
+.texto-navegador:hover{
+    color: #163D34;
+    background-color: #4B9461;
+    padding: 10px;
+    
+}
+
+h1{
+    color: #163D34;
+    text-align: center;
+    font-size: 46px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 25px;
+}
+
+h2{
+    color: #163D34;
+    text-align: center;
+    font-size: 34px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    /*Google fonts */
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}   
+
+p{
+    font-size: 25px;
+    color: #000000;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5 rem;       
+}
+
+.navegadorprincipal{
+    color: #163D34;
+}
+
+/** identificador para poder tener distintas clases */
+
+.parrafos-medios{
+    text-align: left;
+    color:#1D5770s;
+}
+
+
+.texto {
+    color: #163D34;
+}
+
+img{
+    width: auto;
+    align-content: center;
+}
+
+.grid-container{
+    margin: 35px;
+    background-color: #7C97A3;
+    height: 30px;
+   
+    /* grids */
+
+    display: grid;
+
+    /*columnas*/
+    grid-template-columns: repeat(2, 1fr);
+
+    /* rows*/
+    grid-template-rows: repeat(2, 1fr);
+
+    /*gap separacion entre columnas o filas */
+ 
+    column-gap: 1px;
+    /*
+    padding-left: 5px;
+    padding-bottom: 5px;*/
+
+    padding: 2px;
+
+  
+
+}
+
+.uno{
+    position: relative;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    font-display: ;
+    color: #ffffff;
+    position: fixed
+    margin-block-start: 30px;
+    /*padding-left: 15px;*/
+    border-right: 2px solid white;
+    padding-inline: 250px;
+}
+
+.dos{
+    padding-inline: 280px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    font-display: ;
+    color: #ffffff;
+    position: fixed
+    margin-block-start: 30px;
+}
+
+.listascentrales{
+    color: #7C97A3;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    margin-left: 180px;
+    
+
+}
+
+
+
+.lista-datosAP{
+    color: #000000;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.lista-numeros{
+    color: #000000;
+    text-align: ;
+    font-size: 20px;
+}
+
+.banner-gobierno{
+    width: 800px;
+    align-items: center;
+}
+
+.parrafos-fechas{
+    text-align: right;
+    font-size: 20px;
+}
+
+.texto-medio{
+    text-align: center;
+    color: #000000;
+    font-size: 24px;
+}
+
+.caja01{
+    text-decoration: none;
+    list-style: none;
+}
+
+
+/* ancho con la propiedad width */
+/* padding top y bottom -- Left y right  es la propiedad padding: 20px*/
+/* border tamaño del borde de la caja, tamaño de que tipo y color que podría 
+border: 5px; solid; color;*/
+/*border- radius le da un borde redondeado a mi boton  border radius: 6px;*/
+/* pueden existir bordes en todos los lados solo tenemos que agregar border-bottom:*/ 
+
+
+/*
+div{
+    background-color: #163D34;
+    font-family: 'Nunito Sans', light;
+    font-size: 16px;
+    color: white;
+    width: 100%;
+    height: 100px;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-bottom: 20px;
+    margin
+}*/
+
+
+
+
+.centrales{
+    display: flex;
+    height: 400px;
+    /*elemento para alinear los elementos*/
+    align-items: center;
+    flex-wrap: wrap;
+    /*propiedad para el container*/
+    /*justify es para poder poner a los elementos en el lugar que nosotros queramos*/
+    justify-content: space-around;
+    padding: 25px;
+    flex-direction: row-reverse;
+    /*BORDER*/
+    border-radius: 5px solid;
+}
+        
+    /*justify-content start es a la izquierda, si buscamos en web nos va dar los ejemplos de como poder mover los elementos */
+    /*position relative para desbloquear el poder mover los elementos
+    position: relative; pueden ser
+    -top -bottom -left -right */
+    
+    /*position: absolute;
+    desbloquea a partir de los cuatro lados de la pantalla    */
+
+    /*position fixed, te sigue siempre por toda la pantalla, como ejemplo el menu que tenemos siempre arriba de nuestra página*/
+
+    /*position: sticky;*/
+
+
+
+.centrales img{    
+    width: 250px;
+    
+}
+
+.centrales p{
+    color: #ffffff;
+    text-align: center;
+}
+
+.centrales-uno{
+    background-color: #1D5770;
+    padding: 5px;   
+    position: relative;
+    /*propiedad para mover los items de manera independiente*/
+    align-self: stretch;
+    border-radius: 5px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #ffffff
+}
+
+
+.centrales-dos{
+    padding: 5px;
+    background-color: #1D5770;
+    position: relative;
+    align-self: stretch;
+    border-radius: 5px;
+
+}
+
+
+.centrales-tres{
+    padding: 5px;
+    background-color: #1D5770;
+    position: relative;
+    align-self: stretch;
+    border-radius: 5px;    
+}
+
+footer{
+    margin-top: 50px;
+    background-color: #4B9461;
+    height: 170px;
+    text-align: center;
+}
+
+footer a{
+    color: #ffffff;
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+    font-size: 21px;
+}
+
+.centro-footer01{
+    margin-top: 5px;
+    font-size: 24px;
+    text-align: center;
+    color: #163D34
+    
+}
+
+.centro-footer02{
+    margin-top: 5px;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.centro-footer03{
+    margin-top: 5px;
+    color: #163D34;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+    font-size: 21px;
+}
+
+.caja-directorio{
+    margin-top: 20px;
+    display: flex;
+    background-color: #7C97A3;
+    font-family: 'Roboto', sans-serif;;
+    margin-right: 100px;
+    margin-left: 200px;
+    padding: 20px;
+    border-radius: 5px;
+    color: #ffffff;
+   
+    width: 500px;
+    height: 200px;
+
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.caja-directoriouno{
+    font-size: 24px;
+    margin-left: 30px;
+    list-style-type: none;
+    
+}
+
+.caja-directoriodos{
+    display: block;
+    height: 30px;
+    background-color: #ffffff;
+    margin-top: 5px;
+    border-radius: 2px;
+    
+    margin-left: 30px;
+    width: 300px;
+    
+}
+
+.caja-directoriotres{
+    font-size: 24px;
+    height: 30px;
+    margin-top: 30px;
+    border-radius: 2px;
+    margin-left: 30px;
+    width: 300px;
+    text-indent: none;
+    list-style-type: none;
+    
+}
+
+
+
+.caja-directoriocinco{
+    display: block;
+    height: 20px;
+    background-color: #ffffff;
+    color: #7C97A3;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 280px;
+    font-size: 18px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+   
+}
+
+.caja-directoriocuatro{
+    display: flex;
+    
+    background-color: #ffffff;
+    color: #7C97A3;
+    border-radius: 5px;
+    margin-left: 30px;
+    width: 285px;
+    font-size: 18px;
+    padding: 4px;
+    margin-top: 5px;
+    justify-content: space-between;
+    text-align: start;
+    
+   
+}
+
+.caja-directorioimg{
+    
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+    list-style-type: none;
+    background-color: #ffffff
+    
+    
+   
+    
+}
+
